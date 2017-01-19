@@ -13,7 +13,7 @@ PRODUCT_PACKAGES += \
 
 ## Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := hero2qltedcm
-PRODUCT_MODEL := SM-G935D
+PRODUCT_MODEL := SC-02H
 PRODUCT_NAME := omni_hero2qltedcm
 PRODUCT_BRAND := samsung
 PRODUCT_MANUFACTURER := samsung

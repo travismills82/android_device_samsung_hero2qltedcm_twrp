@@ -37,10 +37,10 @@ void vendor_load_properties()
 
 	property_get("ro.bootloader", bootloader);
 
-	if (strstr(bootloader, "SC02H")) {
-	    /* hero2qltedcm */
-	    property_set("ro.product.name", "hero2qltedcm");
+	if (strstr(bootloader, "SC-02H")) {
+	    /* Japan */
+	    property_set("ro.product.name", "SC-02H");
 	}
-	property_set("ro.product.model", "SM-G935D");
+	property_set("ro.product.model", "SC-02H");
 	property_set("ro.product.device", "hero2qltedcm");
 }
